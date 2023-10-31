@@ -1,7 +1,7 @@
-div {
-   box-sizing: content-box;
-   box-sizing: border-box;
- }
+ section {
+    box-sizing: content-box;
+    box-sizing: border-box;
+  }
  
  html{
      background-color: white;
@@ -109,10 +109,14 @@ footer img {
 
  .information_left {
     background-color: brown;
+    box-sizing: content-box;
+    width: 100%;
  }
 
  .information_center {
     background-color: grey;
+    box-sizing: border-box;
+    width: 100%;
  }
 
  .logo_reseaux_sociaux :hover{
@@ -121,5 +125,9 @@ footer img {
     transition-duration: 0.4s;
     transition-property: all;
     transition-timing-function: ease-in-out;
+ }
+
+ .logo {
+   text-align: center;
  }
 
