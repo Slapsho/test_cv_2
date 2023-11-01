@@ -48,7 +48,7 @@
     width: 210px;
     height: 60px;
  }
- 
+
  a {
    font-family: "Raleway-VariableFont";
 }
@@ -124,6 +124,10 @@ footer img {
    height: 120px;
    object-fit: cover;
    border-radius: 50%;
+ }
+
+ .Profil :hover {
+   cursor: zoom-in;
  }
 
  .information_left {
