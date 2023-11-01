@@ -5,6 +5,7 @@
  
  html{
      background-color: white;
+     align-items: center;
   }
 
   body{
@@ -50,10 +51,14 @@
     height: 60px;
  }
 
- p {
-    font: "Raleway-VariableFont";
+ a {
+    font-family: "Raleway-VariableFont";
  }
- 
+
+ p {
+   font-family: "Raleway-VariableFont";
+}
+
  header {
    display: flex;
    flex-direction: column;
@@ -77,6 +82,11 @@
     color: #242424;
     text-decoration: none;
     color: blue;
+ }
+
+ .address_link_container :hover{
+   text-decoration: underline;
+   text-underline-position: under;
  }
 
  .text-center {
@@ -129,7 +139,7 @@ footer img {
  }
 
  .information_center {
-    background-color: grey;
+    background-color: white;
     box-sizing: border-box;
     width: 100%;
     display: flex;
@@ -140,7 +150,7 @@ footer img {
     text-decoration: none;
  }
 
- .logo_reseaux_soci aux :hover{
+ .logo_reseaux_socaux :hover{
     opacity: 60%;
     transition-delay: 0s;
     transition-duration: 0.4s;
