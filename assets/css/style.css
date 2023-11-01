@@ -5,13 +5,11 @@
  
  html{
      background-color: white;
-     align-items: center;
   }
 
   body{
      width: 1160px;
      height: 800px;
-     margin: 0%;
      background-color: brown;
   }
 
