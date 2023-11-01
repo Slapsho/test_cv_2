@@ -48,13 +48,13 @@
     width: 210px;
     height: 60px;
  }
-
+ 
  a {
-    font-family: "Raleway-VariableFont";
- }
-
- p {
    font-family: "Raleway-VariableFont";
+}
+
+p {
+  font-family: "Raleway-VariableFont";
 }
 
  header {
