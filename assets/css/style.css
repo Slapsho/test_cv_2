@@ -48,7 +48,6 @@
    background-color: beige;
    width: 210px;
    height: 60px;
-   position:inherit;
  }
 
  a {
@@ -131,30 +130,27 @@ footer img {
  .Profil :hover {
    cursor: zoom-in;
  }
-
  .information_left {
-    background-color: brown;
-    box-sizing: content-box;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    justify-content: space-between;
- }
+   background-color: brown;
+   box-sizing: content-box;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: left;
+   justify-content: space-between;
+}
+.information_center {
+   background-color:white;
+   box-sizing: border-box;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: end;
+   text-decoration: none;
+}
 
- .information_center {
-    background-color: white;
-    box-sizing: border-box;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-    align-items:end;
-    color: #242424;
-    text-decoration: none;
- }
-
- .logo_reseaux_socaux :hover{
+ .logo_reseaux_sociaux :hover{
     opacity: 60%;
     transition-delay: 0s;
     transition-duration: 0.4s;
